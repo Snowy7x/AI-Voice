@@ -10,7 +10,7 @@ translator = google_translator()
 
 
 def get_bot():
-    return chatBot
+    return Bot(chatBot)
 
 
 def set_bot(name):
